@@ -1,0 +1,236 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #F3F3FF; /* Fondo del cuerpo si es necesario */
+}
+
+.credential-container {
+    background: url('images/fondo.png') no-repeat center center;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #F3F3FF;
+    overflow: hidden;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+}
+
+header {
+    padding: 10px 0;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+header h1 {
+    font-size: 1.2em;
+    margin: 0;
+    font-weight: bold;
+}
+
+#time-container {
+    background: #e0e7ff; /* Color lila claro */
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+#time {
+    font-size: 2em;
+    color: #333;
+    margin: 0;
+}
+
+#date {
+    font-size: 1em;
+    color: #666;
+    display: block;
+    margin-top: 5px;
+}
+
+.profile-image-container {
+    margin: 20px auto;
+    width: 120px; /* Tamaño mayor */
+    height: 120px; /* Tamaño mayor */
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #fff; /* Borde blanco */
+}
+
+.profile-image-container img {
+    width: 100%;
+    height: auto;
+}
+
+main {
+    padding: 20px 10px;
+}
+
+.data-container {
+    background: rgba(255, 255, 255, 0.9); /* Fondo translúcido */
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #e0e0e0; /* Añadir borde */
+}
+
+main h2 {
+    color: #d32f2f;
+    font-size: 1.8em;
+    margin: 0;
+    font-weight: bold;
+}
+
+main h3 {
+    color: #333;
+    font-size: 1.2em;
+    margin: 10px 0 5px 0;
+}
+
+main p {
+    color: #555;
+    font-size: 1em;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main p span {
+    display: flex;
+    align-items: center;
+    margin: 2px 0;
+}
+
+main p span img {
+    margin-right: 5px;
+}
+
+/* Responsive Styles */
+@media (min-width: 768px) {
+    .credential-container {
+        width: 50%;
+        max-width: 600px;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    #time {
+        font-size: 2.5em;
+    }
+
+    #date {
+        font-size: 1.2em;
+    }
+
+    .profile-image-container {
+        width: 150px;
+        height: 150px;
+    }
+
+    main h2 {
+        font-size: 2em;
+    }
+
+    main h3 {
+        font-size: 1.5em;
+    }
+
+    main p {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 375px) {
+    .credential-container {
+        width: 100%;
+        max-width: none;
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 1em;
+    }
+
+    #time-container {
+        padding: 8px 16px;
+    }
+
+    #time {
+        font-size: 1.5em;
+    }
+
+    #date {
+        font-size: 0.9em;
+    }
+
+    .profile-image-container {
+        width: 80px;
+        height: 80px;
+    }
+
+    main h2 {
+        font-size: 1.5em;
+    }
+
+    main h3 {
+        font-size: 1.1em;
+    }
+
+    main p {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 390px) {
+    .credential-container {
+        width: 100%;
+        max-width: none;
+        padding: 15px;
+    }
+
+    header h1 {
+        font-size: 1em;
+    }
+
+    #time-container {
+        padding: 8px 16px;
+    }
+
+    #time {
+        font-size: 1.5em;
+    }
+
+    #date {
+        font-size: 0.9em;
+    }
+
+    .profile-image-container {
+        width: 80px;
+        height: 80px;
+    }
+
+    main h2 {
+        font-size: 1.5em;
+    }
+
+    main h3 {
+        font-size: 1.1em;
+    }
+
+    main p {
+        font-size: 0.9em;
+    }
+}
